@@ -2,7 +2,7 @@
 import compareModules
 
 def orderGeneral(vacancy, candidates, priorities):
-    print('\n\033[01m\033[93m--Entré a analisis orderGeneral()--\033[0m\n')
+    # print('\n\033[01m\033[93m--Entré a analisis orderGeneral()--\033[0m\n')
 
     finalPriorities = {
         'region': 1,

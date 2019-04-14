@@ -11,7 +11,7 @@ from difflib import SequenceMatcher
 # and divide them between the biggest one, so we get values between
 # [ 0, 1 ] * priority
 def orderByRegion(vacancy, candidates, priority):
-    print('\033[01m\033[35m--Entré a compareModules orderByRegion()--\033[0m\n')
+    # print('\033[01m\033[35m--Entré a compareModules orderByRegion()--\033[0m\n')
 
     # print('Vacancy region_name: {}'.format(vacancy['region_name']))
     # print('Vacancy region_id: {}'.format(vacancy['region_id']))
@@ -80,7 +80,7 @@ def orderByRegion(vacancy, candidates, priority):
 # 1 if the min candidate salary range is lower than the min vacancy salary range
 # Then we multiply by priority
 def orderBySalary(vacancy, candidates, results, priority):
-    print('\033[01m\033[35m--Entré a compareModules orderBySalary()--\033[0m\n')
+    # print('\033[01m\033[35m--Entré a compareModules orderBySalary()--\033[0m\n')
     
     # print('Salario de la vacante:')
 
@@ -150,7 +150,7 @@ def orderBySalary(vacancy, candidates, results, priority):
 # We get the skills for each candidate and according to the level
 # we put the priority of main and extra skills values
 def orderBySkill(vacancy, candidates, results, priorities):
-    print('\033[01m\033[35m--Entré a compareModules orderBySkill()--\033[0m\n')
+    # print('\033[01m\033[35m--Entré a compareModules orderBySkill()--\033[0m\n')
 
     file = open('skills.data', 'rb')
     skills = pickle.load(file)
@@ -234,7 +234,7 @@ def orderBySkill(vacancy, candidates, results, priorities):
 #          vacancy job name, if it's bigger than the "type-job-percentaje" we add it to the
 #          counter. Considereing the priority of this area and the different priorities for last and current jobs
 def orderByJobs(vacancy, candidates, results, priorities):
-    print('\033[01m\033[35m--Entré a compareModules orderByJobs()--\033[0m\n')
+    # print('\033[01m\033[35m--Entré a compareModules orderByJobs()--\033[0m\n')
 
     file = open('skills.data', 'rb')
     skills = pickle.load(file)

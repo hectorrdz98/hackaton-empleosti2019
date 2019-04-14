@@ -27,7 +27,7 @@ def printJSON(json2Print):
 # Load vacancy
 
 with open('vacante.json', 'r', encoding="utf8") as f:
-    vacante = json.load(f)[15]
+    vacante = json.load(f)[15]              # Vacancy
 
 
 # Load candidates

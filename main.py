@@ -15,26 +15,35 @@ def getCandidates():
     vacancy_id = request.args.get('id')
     vacancy_num = int(request.args.get('take'))
 
-    # r = requests.get('https://empleosti.com.mx/api/v2/vacancies?token=HrYKX42Ix0&vacancy_id={}'.format(vacancy_id))
-    # vacante = r.json()[0]
+    useLocalVacancies = False
+    useLocalCandidates = True
 
-    with open('vacante.json', 'r', encoding="utf8") as f:
-        vacantes = json.load(f)
-        for vacante in vacantes:
-            if int(vacante['id']) == int(vacancy_id):
-                break
+    if useLocalVacancies:
+        with open('vacante.json', 'r', encoding="utf8") as f:
+            vacantes = json.load(f)
+            for vacante in vacantes:
+                if int(vacante['id']) == int(vacancy_id):
+                    break
+    
+    else:
+        r = requests.get('https://empleosti.com.mx/api/v2/vacancies?token=HrYKX42Ix0&vacancy_id={}'.format(vacancy_id))
+        vacante = r.json()[0]
 
-    print('Vacancy id: %s' % vacancy_id)
+    print('\nVacancy id: %s\n' % vacancy_id)
     # print(vacante)
 
-    with open('candidatos.json', 'r', encoding="utf8") as f:
-        candidatos = json.load(f)
+    if useLocalCandidates:
+        with open('candidatos.json', 'r', encoding="utf8") as f:
+            candidatos = json.load(f)
+    else:
+        r = requests.get('https://empleosti.com.mx/api/v2/candidates?token=HrYKX42Ix0')
+        candidatos = r.json()
 
     # Priorities
 
-    print(re.sub(r'\s+', '', request.args.get('priorities')))
+    # print(re.sub(r'\s+', '', request.args.get('priorities')))
     priorities = json.loads(re.sub(r'\s+', '', request.args.get('priorities')))
-    print(priorities)
+    # print(priorities)
 
     """
     priorities = {
@@ -52,9 +61,9 @@ def getCandidates():
 
     results = analisis.orderGeneral(vacante, candidatos, priorities)
 
-    print()
-    print(results)
-    print()
+    # print()
+    # print(results)
+    # print()
 
     candidates = []
 
