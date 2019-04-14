@@ -52,7 +52,7 @@ def orderByRegion(vacancy, candidates, priority):
             'dist': distance
         })
 
-        # print('Distancia: {}'.format(distance))
+        # print('Distancia: {}\n'.format(distance))
 
     # distances = json.dumps()
 
@@ -98,17 +98,28 @@ def orderBySalary(vacancy, candidates, results, priority):
         if candidate['current_salary'] != '':
             canSalary = [ int(str(val.split(',')[0]) + str(val.split(',')[1])) for val in re.findall(r'(\d+\,\d+)', candidate['current_salary']) ]
         else:
-            canSalary = [ 500000, 500000 ]
+            # print('No hay salario: {} -- {} --'.format(candidate['id'], candidate['current_salary']))
+            check = False
+            for experience in candidate['experiences']:
+                if experience['current_job'] == 1:
+                    canSalary = [ int(str(val.split(',')[0]) + str(val.split(',')[1])) for val in re.findall(r'(\d+\,\d+)', experience['salary_range']) ]
+                    check = True
+            if not check:
+
+                canSalary = [ 500000, 500000 ]
+            # print('Ya hay salario: {} -- {} --'.format(candidate['id'], canSalary))
         
         if canSalary == []:
             canSalary = [ 500000, 500000 ]
 
         distance = 1
 
-        if vacSalary[0] <= canSalary[0] <= vacSalary[1]:    # If in between salary range
-            distance = (priority/2)
+        if vacSalary[0] <= canSalary[0] < vacSalary[1]:    # If in between salary range
+            distance = priority
         elif canSalary[0] < vacSalary[0]:                   # If lower than salary range
             distance = priority
+        elif canSalary[0] <= vacSalary[1]:
+            distance = (priority * 0.25)
         else:                                               # If greater than salary range
             distance = 0
 
@@ -122,7 +133,7 @@ def orderBySalary(vacancy, candidates, results, priority):
     # print()
 
     for dist in distances:
-        lastDist = None
+        lastDist = 0
 
         for resId, resDist in results.items():
             if resId == dist['id']:
@@ -207,7 +218,7 @@ def orderBySkill(vacancy, candidates, results, priorities):
     # print()
 
     for dist in distances:
-        lastDist = None
+        lastDist = 0
 
         for resId, resDist in results.items():
             if resId == dist['id']:
@@ -247,6 +258,8 @@ def orderByJobs(vacancy, candidates, results, priorities):
     distancesJobNames = []
     maxTotalDays = 0
 
+    maxTime = 0                 # Max hrs in jobs
+
     for candidate in candidates:
 
         totalJobPoints = 0
@@ -254,7 +267,7 @@ def orderByJobs(vacancy, candidates, results, priorities):
         totalDaysNP = 0                 # Total days without considering the priorities
         totalJobSim = 0                 # Similarity between job names
 
-        # print('\nCandidate: {}'.format(candidate['id']))
+#        print('\nCandidate: {}'.format(candidate['id']))
         for experience in candidate['experiences']:
 
             jobPoints = 0
@@ -286,14 +299,14 @@ def orderByJobs(vacancy, candidates, results, priorities):
                     else:                                               # Not current job
                         fact = priorities[0]
 
-                    # print(extraSkill['name'], ':::', vacancy['skill_name'])
+#                    print(extraSkill['name'], ':::', vacancy['skill_name'])
                     if extraSkill['name'] == vacancy['skill_name']:
-                        # print('Same')
+#                        print('Same')
                         jobPoints = fact
                     else:
                         if jobPoints < (fact / 4):
                             jobPoints = (fact / 4)
-                    # print('{}'.format(jobPoints))
+#                    print('{}'.format(jobPoints))
                     # print('{} -> {}'.format(extraSkill['name'], found))
 
             if experience['current_job'] == 0:
@@ -314,27 +327,31 @@ def orderByJobs(vacancy, candidates, results, priorities):
             typeDistance = similar(vacancy['job'], experience['job'])
             # print(typeDistance)
             if typeDistance > priorities[3]:
-                totalJobSim += typeDistance * priorities[2]               # Distance between jobs
+                preTotalStrMatch = typeDistance * priorities[2]
                 if experience['current_job'] == 1:                  # Current job
-                    totalJobSim *= priorities[1]
+                    preTotalStrMatch *= priorities[1]
                 else:                                               # Not current job
-                    totalJobSim *= priorities[0]
+                    preTotalStrMatch *= priorities[0]
+                totalJobSim += preTotalStrMatch               # Distance between jobs
 
                 
             # print(totalJobSim)
 
             if jobPoints > 0:
 
-                totalDaysNP += time
+                # totalDaysNP += time
 
                 if experience['current_job'] == 1:                  # Current job
                     totalDays += (time * priorities[1] * jobPoints)
+                    totalDaysNP += (time * priorities[1] * jobPoints)
                 else:                                               # Not current job
                     totalDays += (time * priorities[0] * jobPoints)
+                    totalDaysNP += (time * priorities[0] * jobPoints)
+                maxTime += time
 
                 totalJobPoints += 1
 
-            # print('Got {} in experience in {}'.format(jobPoints, totalDays))
+#            print('Got {} in experience in {}'.format(jobPoints, totalDays))
 
         if totalDaysNP > maxTotalDays:
             maxTotalDays = totalDaysNP    
@@ -352,21 +369,26 @@ def orderByJobs(vacancy, candidates, results, priorities):
 
         # print()
 
-    # print()
-    # print(distances)
-    # print()
+#    print()
+#    print('-----------------------------------------------------')
+#    print()
+#    print(distances)
+#    print()
+
+    if maxTotalDays > 0:
+        distances = [ { 'id': dist['id'], 'dist': (dist['dist'] / maxTime) } for dist in distances ] # maxTime
+
+#    print()
+#    print(distances)
+#    print()
 
     # print('Max: {}'.format(maxTotalDays))
 
     if maxTotalDays > 0:
-        distances = [ { 'id': dist['id'], 'dist': (dist['dist'] / maxTotalDays) + getSameId(dist['id'], distancesJobNames)['dist']  } for dist in distances ]
-
-    # print()
-    # print(distances)
-    # print()
+        distances = [ { 'id': dist['id'], 'dist': dist['dist'] + getSameId(dist['id'], distancesJobNames)['dist']  } for dist in distances ]
 
     for dist in distances:
-        lastDist = None
+        lastDist = 0
 
         for resId, resDist in results.items():
             if resId == dist['id']:

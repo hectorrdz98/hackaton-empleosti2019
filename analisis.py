@@ -23,15 +23,30 @@ def orderGeneral(vacancy, candidates, priorities):
 
     # Compare lat - lon
     results = compareModules.orderByRegion(vacancy, candidates, finalPriorities['region'])
+    # print()
+    # print(results)
+    # print()
+
     # Compare salary
     results = compareModules.orderBySalary(vacancy, candidates, results, finalPriorities['salary'])
+    # print()
+    # print(results)
+    # print()
+
     # Compare skill
     results = compareModules.orderBySkill(vacancy, candidates, results, 
         [ finalPriorities['skills'], finalPriorities['extra-skills'], finalPriorities['max-skills'] ]
     )
+    # print()
+    # print(results)
+    # print()
+    
     # Compare jobs
     results = compareModules.orderByJobs(vacancy, candidates, results, 
         [ finalPriorities['last-jobs'], finalPriorities['current-job'], finalPriorities['type-job'], finalPriorities['type-job-percentaje'] ]
     )
+    # print()
+    # print(results)
+    # print()
 
     return results

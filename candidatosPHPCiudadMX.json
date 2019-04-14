@@ -1,0 +1,1309 @@
+[
+    {
+        "id": 111162,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "30,000 a 35,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Desarrollador Android",
+                "place": "IRONBIT - DIGITAL EXPERIENCES",
+                "description": "Desarrollo de aplicaciones Android nativas java.",
+                "salary_range": "30,000 a 35,000",
+                "start_at": "2018-06-01",
+                "end_at": "2019-03-01",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "Android",
+                "level": "Senior"
+            },
+            {
+                "name": "PHP",
+                "level": "Senior"
+            },
+            {
+                "name": "Administración de Proyectos",
+                "level": "Profesional"
+            },
+            {
+                "name": "UX",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Sin Terminar",
+                "title": "",
+                "place": "TESI"
+            }
+        ],
+        "updated_at": "2019-04-12 11:30:06"
+    },
+    {
+        "id": 115511,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "20,000 a 25,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Ingeniero de software",
+                "place": "Quarksoft",
+                "description": "Colaboración en el desarrollo e implementación de mejoras para un sistema que permite gestionar y otorgar créditos. Participación en la resolución de incidencias.",
+                "salary_range": "15,000 a 20,000",
+                "start_at": "2018-06-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "Python",
+                "level": "Profesional"
+            },
+            {
+                "name": "Análisis de Requerimientos",
+                "level": "Profesional"
+            },
+            {
+                "name": "AngularJS",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [],
+        "updated_at": "2019-04-12 11:05:42"
+    },
+    {
+        "id": 117715,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "30,000 a 35,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Programador",
+                "place": "Gama software",
+                "description": "Desarrollo en progress y pas aplicaciones rest",
+                "salary_range": "25,000 a 30,000",
+                "start_at": "2017-02-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "PHP",
+                "level": "Senior"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Lic. Matemáticas Aplicadas y Computación",
+                "place": "FES Acatlán"
+            }
+        ],
+        "updated_at": "2019-04-12 06:44:53"
+    },
+    {
+        "id": 117432,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "5,000 a 10,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "PROGRAMADOR Jr.",
+                "place": "Editorial MD",
+                "description": "GERENTE, DESAROLLADOR DE APPS ANDROID/PC, PHPMYADMIN, ADMINISTRACIÓN DE PÁGINA WEB Y REDES SOCIALES, WORDPRESS, HTML, CSS Y RESEARCH.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2016-11-01",
+                "end_at": "2018-12-01",
+                "current_job": 0
+            },
+            {
+                "job": "",
+                "place": "UDEMY:\nLÓGICA DE PROGRAMACIÓN\nWORDPRESS BÁSICO\nWORDPRESS INTERMEDIO\nUNITY BÁSICO\nFUNDAMENTOS",
+                "description": "",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            },
+            {
+                "job": "",
+                "place": "CIBERCAFE\nTEL",
+                "description": "MANTENIMIENTO DE COMPUTADORAS\nINSTALACIÓN\nZ                                            DE REDES\nSOPORTE TÉCNICO\n                            FUNCIÓN\nMANTENIMIENTO DE COMPUTADORAS\nINSTALACIÓN\n                                             DE REDES\nDreamweave\n               r Ilustrator\n               Java básico\n               SQL básico\n               Blende\n               r\n               Autoca\n               d\n               Redes\n               Instalación y confiuración de\n               equipos\n               Ensamble de computadoras",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            },
+            {
+                "job": "",
+                "place": "WHITESTONE",
+                "description": "SOPORTE TECNICO\n                               FUNCION\nMANTENIMIENTO PREVENTIVO Y\nJAIME                                            CORRECTIVO DE COMPUTADORAS Y DE\nMARTINEZ                                         RED",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            },
+            {
+                "job": "",
+                "place": "CEDUMEC",
+                "description": "SOPORTE TÉCNICO\nMANTENIMIENTO DE COMPUTADORAS\nPERSONALES\nREPARACIÓN DE LAPTOS\nANDROID\nLINUX BÁSICO\nBASES DE DATOS DE ANTIVIRUS",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "CSS",
+                "level": "Profesional"
+            },
+            {
+                "name": "HTML",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "Java",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "DISEÑO GRÁFICO Y SITEMAS COMPUTACIONALES",
+                "place": "UAM"
+            }
+        ],
+        "updated_at": "2019-04-12 01:17:17"
+    },
+    {
+        "id": 54095,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Desarrollador backend",
+                "place": "KarmaPulse",
+                "description": "En The Anglo las actividades que realizo son\nadministración de bases de datos con sql y mysql, desarrollo de\nmódulos, actualización y admini",
+                "salary_range": "25,000 a 30,000",
+                "start_at": "2016-07-31",
+                "end_at": "",
+                "current_job": 1
+            },
+            {
+                "job": "Desarrollador de software",
+                "place": "Evolve Interactive SA de CV",
+                "description": "",
+                "salary_range": "",
+                "start_at": "2017-02-01",
+                "end_at": "",
+                "current_job": 1
+            },
+            {
+                "job": "Desarrollador de software",
+                "place": "Evolve Interactive",
+                "description": "En Sualbeauty las actividades principales han sido el desarrollar módulos para una plataforma que se desarrollo a la medida, con php y javascript en una estructura mvc, de igual manera la configuración AWS y VPN, trabajar con bases de datos en manejadores sql server y mysql así como implementar el versionamiento con git.",
+                "salary_range": "25,000 a 30,000",
+                "start_at": "2017-02-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "PHP",
+                "level": "Senior"
+            },
+            {
+                "name": "Bases de Datos Relacionales",
+                "level": "Senior"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [],
+        "updated_at": "2019-04-11 17:44:14"
+    },
+    {
+        "id": 26744,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "45,000 a 50,000",
+        "birthday": "1977-02-23",
+        "experiences": [
+            {
+                "job": "Application Developer",
+                "place": "ZED Group",
+                "description": "En este empleo me encargué de desarrollar módulos de software de acuerdo a las especificaciones preparadas por el dpto. de proyectos, para atender las necesidades del modelo de negocio de la empresa, generación de informes y/o mantenimientos de base de datos. Participé en la solución de problemas operativos a través del análisis de los sistemas y documentación de procesos.\r\n\r\nTecnologías utilizadas: VB.net (3.5), MS SQL Server, Team Foundation Services (VC), PHP, MySQL.",
+                "salary_range": "",
+                "start_at": "2008-09-16",
+                "end_at": "2013-05-16",
+                "current_job": 0
+            },
+            {
+                "job": "Web Developer",
+                "place": "DFSOFT",
+                "description": "Desarrollo de soluciones web para empresas y consultoría estratégica.\r\n\r\nFui responsable del desarrollo y puesta en producción una herramienta para email marketing para un cliente de la empresa. Desarrollada usando PHP y MySQL.\r\n\r\nAdemás de desarrollar módulos de administración para sitios webs existentes y API's de integración.\r\n\r\nConfiguración de servidores Linux en plataformas cloud.\r\n\r\nManejo de herramientas de control de versiones (GIT).\r\n\r\nUso de herramientas frontend como Bower y Gulp.js para optimizar el flujo de trabajo.",
+                "salary_range": "15,000 a 20,000",
+                "start_at": "2014-01-01",
+                "end_at": "2015-01-01",
+                "current_job": 0
+            },
+            {
+                "job": "Full Stack Lead Developer",
+                "place": "ÖSOM",
+                "description": "En mi actual posición estoy a cargo de solucionar incidencias e implementar mejoras del storefront. Trabajo en varios proyectos internos, el más destacado la creación de una REST API enfocada al ecommerce y una herramienta de deploy basada en ANSIBLE.",
+                "salary_range": "30,000 a 35,000",
+                "start_at": "2017-02-28",
+                "end_at": "",
+                "current_job": 1
+            },
+            {
+                "job": "Development Lead",
+                "place": "Fotec - Photography as a platform",
+                "description": "Encargado del diseño, implementación y actualización de la plataforma técnica de Fotec.\n\nLiderar equipo de desarrollo. Crear soluciones para mejorar el proceso interno del equipo de operaciones. Investigación de nuevas tecnologías que ayuden a mejorar el modelo de negocio.\n\nTecnologías utilizadas: API backend construido con Laravel y MySQL, Frontend app usando VUE.Js. Infraestructura en AWS.",
+                "salary_range": "45,000 a 50,000",
+                "start_at": "2017-06-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "Javascript",
+                "level": "Profesional"
+            },
+            {
+                "name": "Análisis de Requerimientos",
+                "level": "Profesional"
+            },
+            {
+                "name": "Servidores de Aplicaciones (Application Servers)",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Técnico Superior en Computación",
+                "place": "Instituto Univesitario de Nuevas Profesiones"
+            }
+        ],
+        "updated_at": "2019-04-11 12:32:51"
+    },
+    {
+        "id": 111725,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "15,000 a 20,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Estudiante de máster",
+                "place": "CIDETEC-IPN",
+                "description": "Desarrollo de una interfaz de realidad mixta para el Kinect",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2016-08-01",
+                "end_at": "",
+                "current_job": 1
+            },
+            {
+                "job": "becario",
+                "place": "Grupo EDISSA",
+                "description": "Desarrollo del videojuego Asteroides VR para android\n               Desarrollo del videojuego zombies en el bosque VR para android\n               Participación en el Global Game Jam 2018",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "C#/Net",
+                "level": "Profesional"
+            },
+            {
+                "name": "Java",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "Python",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Avanzado"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Maestría",
+                "title": "Tecnologías de Computo",
+                "place": "Escuela Superior de Computo - IPN,\n                CD MX"
+            },
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Sistemas Computacionales",
+                "place": ""
+            }
+        ],
+        "updated_at": "2019-04-11 11:27:47"
+    },
+    {
+        "id": 105810,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "15,000 a 20,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Auxiliar Administrativo",
+                "place": "Dirmex Refacciones",
+                "description": "Auditoria de compras y ventas, administración de base de datos y usuarios, administración de sistema aspel SAE, administración de proyecto de migración de base de datos, administración de proyecto de automatización de operaciones, realización de reportes de compras por proveedor y por producto y reportes de ventas por cliente y por vendedor.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2018-01-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "Bases de Datos Relacionales",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "Administración de Proyectos",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "PHP",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "Business Intelligence",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            },
+            {
+                "name": "Español",
+                "level": "Lengua Nativa"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Lic. Informática Administativa",
+                "place": "UNIVERSIDAD AUTONOMA DEL ESTADO DE MEXICO"
+            },
+            {
+                "kind": "Diplomado/Curso",
+                "title": "Constancia SAE Intermedio",
+                "place": "A&G Entrerprice Solutions"
+            },
+            {
+                "kind": "Diplomado/Curso",
+                "title": "Constancia SAE Avanzado",
+                "place": "A&G Entrerprice Solutions"
+            },
+            {
+                "kind": "Diplomado/Curso",
+                "title": "Constancia CAPM",
+                "place": "Hubbie Solutions"
+            },
+            {
+                "kind": "Diplomado/Curso",
+                "title": "Constancia SAE Básico",
+                "place": "A&G entrerprice solutions"
+            }
+        ],
+        "updated_at": "2019-04-11 06:35:25"
+    },
+    {
+        "id": 65601,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "5,000 a 10,000",
+        "birthday": "1991-03-14",
+        "experiences": [
+            {
+                "job": "Diseñador Multimedia, Animador 2D & Web Developer",
+                "place": "Appuntos – Empresa de Marketing de Lealtad con una app",
+                "description": "Empezando por el diseño, programación y posicionamiento de la nueva landing page y newsletters hasta la publicidad en blogs y redes sociales, infografías, animaciones y Metrobús, realizo el material POP y POS digital e impreso para cada una de las campañas BTL; incrementando en 100+ los usuarios de la App en cada uno de los restaurantes afiliados en Monterrey. Obteniendo, en octubre pasado, el contrato para 3 restaurantes de Grupo Toscano, en la capital del país.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2017-09-01",
+                "end_at": "2017-05-01",
+                "current_job": 1
+            },
+            {
+                "job": "CEO & Diseño Web Senior. SEO & Copywriter",
+                "place": "Volgo Digital Marketing Agency-Yo como FreeLance",
+                "description": "Desde los contenidos., material POP, POS y maquetación e implementación de webs, he ayudado como FreeLancer a negocios y emprendedores online. Incluyendo la publicidad y administración de sus redes sociales hasta el planteamiento, desarrollo y lanzamiento de sus productos digitales (cursos, ebooks, tutoriales y videos), redacción de newsletters, blog post y rediseño de logotipos para elevar ventas y posicionar marcas en Google.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2013-02-01",
+                "end_at": "2016-09-01",
+                "current_job": 1
+            },
+            {
+                "job": "Diseñador Gráfico Editorial & Desarrollador Web",
+                "place": "Agencia de Marketing Interactivo Bólido",
+                "description": "Coordiné el diseño de material publicitario digital e impreso, hasta la edición de videos, programación de micrositios para las diferentes campañas de nuestros clientes, fotografía de estudio y de producto; banners y estrategias de email y social marketing. Presentaciones, animaciones y folletos. Obteniendo el patrocinio para el desarrollo y publicidad del primer videojuego de la empresa, en 2014.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2012-02-01",
+                "end_at": "2015-10-01",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "PHP",
+                "level": "Senior"
+            },
+            {
+                "name": "Diseño Web",
+                "level": "Senior"
+            },
+            {
+                "name": "Community Manager",
+                "level": "Profesional"
+            },
+            {
+                "name": "SEO - SEM",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Avanzado"
+            },
+            {
+                "name": "Italiano",
+                "level": "Nivel Básico"
+            },
+            {
+                "name": "Español",
+                "level": "Lengua Nativa"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Maestría",
+                "title": "Narrativa y Producción Digital",
+                "place": "Universidad Panamericana (UP)"
+            },
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Ingeniería en Animación Digital",
+                "place": "Universidad Panamericana campus UPANA CDMX"
+            }
+        ],
+        "updated_at": "2019-04-10 17:06:38"
+    },
+    {
+        "id": 96674,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "1,000 a 3,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Full Stack Java developer",
+                "place": "BBVA",
+                "description": "Full Stack Java developer at BBVA Group, migrating Cobol, DB2 and JCL procedures to newer technologies like Spring Batch, JEE, RESTful or SOAP web services and OracleDB in the APX plataform.",
+                "salary_range": "1,000 a 3,000",
+                "start_at": "2017-09-01",
+                "end_at": "",
+                "current_job": 1
+            },
+            {
+                "job": "Freelance",
+                "place": "freelance",
+                "description": "Programador independiente en PHP de sitios Web para pequeñas y medianas empresas, Responsable del análisis de requerimientos, diseño de interfaz de usuario, reglas de negocio y persistencia en base de datos, así como de proponer las soluciones tecnológicas para el sistema.\n\nProgramador para el Instituto de Investigaciónes Electricas. Desarrollo de simuladores de energía eléctrica para la refinería de Pemex \"Salamanca\" con Visual Basic .Net y aplicaciones tales como: Cálculos de Vapor y generación eléctrica, Calculo de costos, Gráficas de eficiencia.\nExportación de datos a otros programas como WORD y EXEL.",
+                "salary_range": "1,000 a 3,000",
+                "start_at": "2015-07-01",
+                "end_at": "2016-08-01",
+                "current_job": 0
+            },
+            {
+                "job": "Java Developer",
+                "place": "Softtek",
+                "description": "Desarrollador de aplicaciones para BBVA Bancomer, Participando desde el análisis de los requerimientos solicitados por el usuario utilizando herramientas como diagramas UML(Casos de uso, diagrama de clases, componentes y secuencia)  para facilitar el entendimiento y su correcta implantación en el desarrollo del sistema, responsable de solicitar web services  para la comunicación. He participado en el desarrollo de Librerias, Transacciones y Jobs, con conexión a base de datos Oracle mediante JDBC y JPA para cumplir con la lógica del negocio, Durante 6 meses me he desempeñado como coordinador de los entregables del Frontend (Con 2 personas a mi cargo), de lo cual incluye el diseño y programación de pantallas con Spring MVC, JavaScript, Jquery y easyUI,",
+                "salary_range": "1,000 a 3,000",
+                "start_at": "2016-08-01",
+                "end_at": "2017-09-01",
+                "current_job": 0
+            },
+            {
+                "job": "Senior Java Developer",
+                "place": "Globant",
+                "description": "",
+                "salary_range": "",
+                "start_at": "2018-11-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "Javascript",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "AngularJS",
+                "level": "Profesional"
+            },
+            {
+                "name": "Java",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Avanzado"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Maestría",
+                "title": "Master",
+                "place": "universidad politecnica del estado de Morelos"
+            },
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Ing en Sistemas Computacionales",
+                "place": "UNINTER"
+            }
+        ],
+        "updated_at": "2019-04-10 16:47:40"
+    },
+    {
+        "id": 108136,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "30,000 a 35,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Software Developer",
+                "place": "iasacomunicacion",
+                "description": "Análisis de desarrollo\nProgramación de paginas Web y Apps\nMigración de CMS\nSoporte a Servidores\nMaquetación de sitios Web\n\t-cinepremiere.com.mx\n\t-altonivel.com.mx\n\t-mexicodesconocido.com.mx\n\t-nupciasmagazine.com\nNuevos desarrollos",
+                "salary_range": "20,000 a 25,000",
+                "start_at": "2013-02-01",
+                "end_at": "2018-11-01",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "Diseño de Software",
+                "level": "Senior"
+            },
+            {
+                "name": "JQuery",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "Java",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Ingenieria en Informatica",
+                "place": "Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas (UPIICSA) del Instituto Politécnico Nacional."
+            }
+        ],
+        "updated_at": "2019-04-10 14:49:03"
+    },
+    {
+        "id": 106378,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "15,000 a 20,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "",
+                "place": "Fernández Editores",
+                "description": "Programación\nmaquetación y mantenimiento de sitios web\nCreación de una aplicación de\nAndroid para levantar ventas",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            },
+            {
+                "job": "Programador",
+                "place": "Cafebrería El Péndulo",
+                "description": "Transformación del sitio pendulo.com a sitio responsivo, aumentando la velocidad de carga del sitio en un 200%. Utilización de APIs para distintos servicios. Creación de utilidades en el back office para facilitar el flujo de trabajo de la tienda en línea.\n\nCreación desde cero de un sistema de rocola para poner música en los restaurantes de la\nempresa.",
+                "salary_range": "10,000 a 15,000",
+                "start_at": "2017-04-01",
+                "end_at": "2018-12-01",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "CSS",
+                "level": "Profesional"
+            },
+            {
+                "name": "Javascript",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "Python",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español",
+                "level": "Lengua Nativa"
+            },
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Cursando",
+                "title": "Licenciatura en Informatica",
+                "place": "U.N.A.M."
+            },
+            {
+                "kind": "Estudios Universitarios - Sin Terminar",
+                "title": "Informática",
+                "place": "Universidad Nacional Autónoma de México (UNAM)"
+            },
+            {
+                "kind": "Diplomado/Curso",
+                "title": "Udemy: Vue JS Essentials with Vuex and Vue Router – 2018",
+                "place": ""
+            }
+        ],
+        "updated_at": "2019-01-26 15:50:47"
+    },
+    {
+        "id": 58283,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "10,000 a 15,000",
+        "birthday": "1994-03-30",
+        "experiences": [
+            {
+                "job": "Desarrollador Python",
+                "place": "Tesis",
+                "description": "Desarrollo de software para la atribución de autoría, basado en el uso de información morfológica, aplicando técnicas de aprendizaje automático.",
+                "salary_range": "1,000 a 3,000",
+                "start_at": "2016-01-20",
+                "end_at": "2017-01-20",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "C++",
+                "level": "Profesional"
+            },
+            {
+                "name": "Python",
+                "level": "Profesional"
+            },
+            {
+                "name": "Java",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "PHP",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés simplificado",
+                "level": "Nivel Intermedio"
+            },
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Pasante",
+                "title": "Ing. Comunicaciones y electrónica",
+                "place": "Instituto Politécnico Nacional"
+            }
+        ],
+        "updated_at": "2019-04-10 02:58:47"
+    },
+    {
+        "id": 38602,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "30,000 a 35,000",
+        "birthday": "1991-02-28",
+        "experiences": [
+            {
+                "job": "Desarrollador ",
+                "place": "Rectoría de la Universidad Autónoma de Guerrero en la Coordinación de Tecnologías de la Información y la Comunicación (CTIC).",
+                "description": "Desarrollo :Sistema de Administración Digital de Servicios y Operaciones de los Centros de Cómputo de la AUGro.\r\nResultados/Logros :El sistema cuenta con una interfaz gráfica intuitiva, amigable y de fácil uso tanto para el administrador (el cual es el encargado de utilizar el servidor) y los usuarios (los cuales hacen uso de los clientes). \r\nEntorno : Java (Cliente-Servidor utilizando socket), MySQL, Oracle.   ",
+                "salary_range": "1000 a 3000",
+                "start_at": "2015-02-09",
+                "end_at": "2015-06-12",
+                "current_job": 1
+            },
+            {
+                "job": "Desarrollador (Residencia profesional)",
+                "place": "CENTRO DE ESTUDIOS SUPERIORES SUPERIORES GUERRERO(CESGRO).",
+                "description": "Desarrollo : Desarrollo de un  sistema de gestión escolar del Centro de Estudios Superiores Guerrero (CESGRO). \r\nResultados/Logros :El sistema cuenta con una interfaz gráfica intuitiva, amigable y de fácil uso; es completamente funcional y ha sido implementado en un servidor, disponible en la dirección “http://www.controlcesgro.com”.\r\nEntorno :PHP, JavaScript, AJAX, CSS3, HTML5, JSON, JQUERY, MySQL.\r\nPeriodo :Febrero – Junio 2015.",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            },
+            {
+                "job": "",
+                "place": "",
+                "description": "",
+                "salary_range": "",
+                "start_at": "",
+                "end_at": "",
+                "current_job": 0
+            },
+            {
+                "job": "Ingeniero de software",
+                "place": "INFOTEC",
+                "description": "Desarrollo de aplicaciones web y móviles.",
+                "salary_range": "25,000 a 30,000",
+                "start_at": "2018-07-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "Java",
+                "level": "Experto"
+            },
+            {
+                "name": "Javascript",
+                "level": "Senior"
+            },
+            {
+                "name": "HTML5",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Certificación",
+                "title": "Analista GeneXus X Evolution 3",
+                "place": "Artech México"
+            }
+        ],
+        "updated_at": "2019-04-09 23:31:37"
+    },
+    {
+        "id": 112912,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "15,000 a 20,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Becario",
+                "place": "Auditoria Interna UNAM",
+                "description": "Desarrollo y testeo de componentes para un sistema interno a la dependencia de la universidad.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2018-02-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "CSS",
+                "level": "Profesional"
+            },
+            {
+                "name": "Bases de Datos Relacionales",
+                "level": "Profesional"
+            },
+            {
+                "name": "HTML",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Pasante",
+                "title": "Ingenieria en Computacion.",
+                "place": "UNAM Facultad de Ingenieria"
+            }
+        ],
+        "updated_at": "2019-04-09 23:19:39"
+    },
+    {
+        "id": 4048,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "35,000 a 40,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Gerencia de Desarrollo",
+                "place": "Edenred México",
+                "description": "Gestionar los recursos externos para aprobación de timesheet para el pago de consultoras.\nGenerar presupuesto clasificando los proyectos Opex y Capex\nGestionar que todos los proyectos se genere y entregue su documentación a los equipos NOC y Sustain\nRevisión de los avances de cada uno de los proyectos priorizados\nRevisión de los nuevos proyectos con las áreas de producto para determinar un timeline. \nNotificación de avances por proyecto al SEDIR\nGestión del capacity de cada recurso externo para la asignación de nuevos proyectos.\nOrganización de los equipos de desarrollo conforme a las cargas de trabajo y prioridades.\nPriorización y revisión de avances con el equipo de Arquitectura Funcional y de datos de cada proyecto y con ello poder organizar y planear la renovación tecnológica.\nRevisión de pruebas piloto en conjunto con los Arquitectos para determinar si se está siguiendo lo que se estableció en el diseño de cada proyecto.\nPriorización y revisión de avances con el equipo de QA para determinar la calidad, retrasos de cada proyecto.\nGestión de los líderes de proyecto y revisar su forma de trabajo para el proyecto en curso ya sea por kamban o Scrum.\nEstablecer prioridades de proyectos a los diferentes líderes de equipos de desarrollo.\nParticipar en los nuevos proyectos para la revisión de dependencias transversales, alcances y tiempos con los diferentes equipos involucrados.\nNotificación a los sponsor, product owner de los proyectos avances, posibles cambios de alcance o fechas de liberación.",
+                "salary_range": "45,000 a 50,000",
+                "start_at": "2018-02-01",
+                "end_at": "2019-04-01",
+                "current_job": 0
+            },
+            {
+                "job": "Lider de Proyecto",
+                "place": "Edenred México",
+                "description": "Dar seguimiento a los nuevos proyectos que se establezca para el mejoramiento de las áreas involucradas.\nDesarrollar aplicaciones web internas para la administración y disminución de tiempos del área solicitante.\nAdministración del sistema de Reportes Web para la toma de decisiones de cada una de las áreas.\n\nMejoramiento y generación de nuevos reportes para las diferentes áreas que necesitan información de los productos Ecovale para la toma de decisiones.\nMantenimiento de las interfaces desde SAP para Oracle porque se generan nuevos campos y tablas por migración y reportes.\nDesarrollo y administración del sistema de facturación manual de clientes y afiliados por el cambio de CFDI V 3.3\nApoyo a las áreas que están realizando migración de empresas por cambio de producto.\nGeneración de layouts para la migración de empresas a la nueva plataforma de mellizos.\nSupervisión de  los layouts para replicar el alta de productos y puntos de entrega desde SAP.",
+                "salary_range": "30,000 a 35,000",
+                "start_at": "2015-12-01",
+                "end_at": "2018-02-01",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "Administración de Proyectos",
+                "level": "Profesional"
+            },
+            {
+                "name": "Oracle EBS",
+                "level": "Profesional"
+            },
+            {
+                "name": "Administración de Servidores Unix",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Licenciado en Informática Administrativa",
+                "place": "Universidad Insurgentes Plantel Sur I"
+            }
+        ],
+        "updated_at": "2019-04-09 18:30:08"
+    },
+    {
+        "id": 117518,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "35,000 a 40,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Lider de Proyecto",
+                "place": "Sedesol",
+                "description": "Documentación de módulos, componentes, clases del sitio SISGE. Migración de la plataforma Silverlight del sitio SISGE a HTML5 con VB.NET. Creación de páginas web con ASP.NET (VB, C#) en Visual Studio paradigma VMC con Aspx y Razor, JQuery y conexión con base de datos de Oracle y MySQL. Programación en dispositivos móviles con Android Studio y Xcode (iOS). Mantenimiento y programación de Tablero SISI para dispositivos móviles.",
+                "salary_range": "",
+                "start_at": "2014-08-01",
+                "end_at": "2019-02-01",
+                "current_job": 0
+            },
+            {
+                "job": "Programador Web",
+                "place": "Lores Consulting",
+                "description": "Programación de módulos contables para diversas clientes , encargado de la verificación electrónica hacia el SAT, utilizando herramientas como SQL Server, PHP y Jquery.",
+                "salary_range": "",
+                "start_at": "2013-10-01",
+                "end_at": "2014-08-01",
+                "current_job": 0
+            },
+            {
+                "job": "Ing. Sistemas",
+                "place": "IÑAKI ECHEVERRIA[URBANISMO PAISAJE ARQUITECTURA",
+                "description": "Mantenimiento al equipo de cómputo, impresoras, configuración de correos, respaldos de información   imágenes de discos duros, configuración de redes, programación web con PHP y MySQL, mantenimiento del portal web.",
+                "salary_range": "",
+                "start_at": "2013-01-01",
+                "end_at": "2013-10-01",
+                "current_job": 0
+            },
+            {
+                "job": "SOPORTE TÉCNICO Y PROGRAMACIÓN WEB",
+                "place": "Librería LEO",
+                "description": "Programación de módulos para el E-commerce en PHP con programación orientada a objetos, MySQL y JQuery, inclusión  de Apis Facebook y Google en el sitio web, rediseño del sitio web, soporte y mantenimiento al equipo de cómputo. Administración de Cpanel.",
+                "salary_range": "",
+                "start_at": "2012-03-01",
+                "end_at": "2012-12-01",
+                "current_job": 0
+            }
+        ],
+        "skills": [
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "JQuery",
+                "level": "Profesional"
+            },
+            {
+                "name": "HTML5",
+                "level": "Profesional"
+            },
+            {
+                "name": "Android",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés simplificado",
+                "level": "Nivel Intermedio"
+            },
+            {
+                "name": "Francés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Titulado",
+                "title": "Ingeniero en Computación",
+                "place": "UNAM Facultad de Ingenieria"
+            }
+        ],
+        "updated_at": "2019-04-09 18:27:44"
+    },
+    {
+        "id": 87406,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "10,000 a 15,000",
+        "birthday": "",
+        "experiences": [
+            {
+                "job": "Desarrollador Web Jr.",
+                "place": "Independiente (freelance)",
+                "description": "Desarrollo de Sitios y Módulos de Sistemas Web orientados a la administración de datos.\n Diseñador y administrador de base de datos en SGBD: MySQL, PostgreSQL, MSSQL.\n Desarrollador de Front-End/Back-End empleando herramientas: PHP, JavaScript, Bootstrap y jQuery.\n Ejecución de Pruebas en el proceso de desarrollo de la plataforma.\n Participación en el desarrollo de módulos de aplicaciones bajo plataforma Java.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2015-05-15",
+                "end_at": "",
+                "current_job": 1
+            },
+            {
+                "job": "Analista/Programador",
+                "place": "Calseg Pachuca",
+                "description": "Practicante en el área de consultoría en TI dentro de la empresa.\nAnálisis y desarrollo de sistema web para el control de inventarios implementando tecnologías web: PHP/Bootstrap/JavaScript\nApoyo técnico a directivos de la empresa.",
+                "salary_range": "3,000 a 5,000",
+                "start_at": "2016-05-16",
+                "end_at": "2016-05-13",
+                "current_job": 0
+            },
+            {
+                "job": "Desarrollador de Sistemas",
+                "place": "Dirección General de Tecnologías de la Información de la Secretaría de Educación Pública del Estado de Hidalgo",
+                "description": "Practicante en el área de desarrollo de sistemas, desarrollando plataforma de administración, control y captura de información para la Coordinación de Establecimientos de Consumo Escolar de la SEPH.\n Líder de equipo de desarrollo.\n Diseñador y administrador de base de datos en SGBD: MySQL\n Desarrollador de Front-End/Back-End de plataforma empleando herramientas: PHP, JavaScript, Bootstrap y jQuery.\n Ejecución de Pruebas en el proceso de desarrollo de la plataforma.\n Creación de consultas SQL para el intercambio de datos entre bases de datos externas a la plataforma.",
+                "salary_range": "5,000 a 10,000",
+                "start_at": "2018-01-15",
+                "end_at": "2018-04-30",
+                "current_job": 0
+            },
+            {
+                "job": "Desarrollador Jr",
+                "place": "Teknei",
+                "description": "Area: Transporte y Tráfico\n\nDesarrollo y mantenimiento de proyecto web orientado al sector de Tráfico y Transporte, empleando tecnologías:\n\n * Java EE / Spring / Hibernate / Maven\n * PrimeFaces\n * SGBD PostgreSQL\n * Desarrollo de WebServices REST empleando Spring Boot\n * Desarrollo de pruebas de escritorio\n * Manejo de servidor JBOSS / Tomcat (versiones 7 y 8)\n * Elaboración de reportes usando Pentaho Report Designer\n * Consumo y prueba de servicios API REST\n * Consumo y prueba de servicios SOAP\n * Análisis de requerimientos\n * Pruebas unitarias\n * Gestión de versiones empleando SVN.",
+                "salary_range": "10,000 a 15,000",
+                "start_at": "2018-07-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "Javascript",
+                "level": "Profesional"
+            },
+            {
+                "name": "Java",
+                "level": "Profesional"
+            },
+            {
+                "name": "Diseño Web",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "PHP",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Español",
+                "level": "Lengua Nativa"
+            },
+            {
+                "name": "Inglés",
+                "level": "Nivel Intermedio"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Pasante",
+                "title": "Ingeniero en Tecnologías de Información y Comunicación",
+                "place": "Universidad Tecnologica del Valle del Mezquital"
+            },
+            {
+                "kind": "Técnico Superior Universitario",
+                "title": "Técnico Superior Universitario en Tecnologías de la Información y Comunicación en Área de Sistemas Informaticos",
+                "place": "Universidad Tecnologica del Valle del Mezquital"
+            },
+            {
+                "kind": "Bachillerato/Media Superior/Preparatoria",
+                "title": "Certificado de Bachillerato",
+                "place": "Colegio de Bachilleres del Estado de Hidalgo"
+            }
+        ],
+        "updated_at": "2019-03-04 11:15:43"
+    },
+    {
+        "id": 21448,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "15,000 a 20,000",
+        "birthday": "1989-05-05",
+        "experiences": [
+            {
+                "job": "Reclutamiento y Selección de Personal ",
+                "place": "Vantis S de RL de CV",
+                "description": "  Apoyo en Soporte técnico y desarrollo de páginas web (en java) para COMESA.\r\n  Aplicación interpretación de Pruebas Psicométricas para la selección de personal, de acuerdo al perfil requerido.\r\n  Desarrollo, aplicación y evaluación de Pruebas Técnicas para selección de personal enfocado a tecnologías de la información.\r\n  Apoyo a Recursos Humano.\r\n  Entrevistas a personal interno para conocer su perfil psicométrico.\r\n  Análisis de puestos.\r\n\r\n\tTest de16 Factores de Cattel, Test del árbol, Test de la figura humana, Test Cleaver, MS Office.\r\n\tExámenes desarrollados: PLSQL, .Net, Java.\r\n\tJava, PLSQL, php, html.",
+                "salary_range": "10,000 a 15,000",
+                "start_at": "2014-06-09",
+                "end_at": "",
+                "current_job": 1
+            },
+            {
+                "job": "Jefe de Departamento",
+                "place": "Coordinación Nacional del Programa de Desarrollo Humano Oportunidades ",
+                "description": "\tAplicación e interpretación de Pruebas Psicométricas para la selección de personal, de acuerdo al perfil requerido.\r\n\tDesarrollo de reportes con Jasper, php y java.\r\n\tMantenimiento al Sistema SIOO para las consultas del Padrón.\r\n\tCreación de proyectos Web con php para el sistema SIOO.\r\n\tCreación de reportes con Jasper para SIOO.\r\n\tMantenimiento a la página de la Dirección de Información Geoestadística (DIG).\r\n\tCreación de aplicaciones para actualización de información cartográfica.\r\n\tMantenimiento a la base de datos (Oracle 10g).\r\n\tElaboración de diagrama Entidad-relación de la Base de Datos.\r\n\tCreación y mantenimiento de vistas materializadas para actualización de la BD bimestralmente.\r\n\tDesarrollo de aplicaciones de escritorio Java.\r\n\tDiseño, desarrollo y reestructuración de la página de monitoreo (DIG) en php, javascript, html, css y JQuery para su liberación a intranet.\r\n\r\n\tPLSQL, Oracle 10g, php, java, html, javascript, CSS, Ajax, NetBeans, Eclipse, GlassFish, JBoss (Básico), apache Tomcat 7.0.16, notepad++, sqldeveloper, Rational rose.\r\n\tTest de16 Factores de Cattel, Test del árbol, Test de la figura humana, Desarrollo y aplicación de la prueba psicométrica para medir el nivel de satisfacción laboral.\r\n",
+                "salary_range": "10,000 a 15,000",
+                "start_at": "2011-07-18",
+                "end_at": "2014-06-06",
+                "current_job": 0
+            },
+            {
+                "job": "Programador Jr.",
+                "place": "Universidad Autónoma de Nuevo León ",
+                "description": "Proyecto SHF:\r\n\tCreación de Front’s en herramienta General Interface\r\n\tCreación de Proxys, mashup y axis2 con tecnología SOAP (Básico).\r\n\tDesarrollo y mantenimiento a JSP\r\n\tDesarrollo de funciones y validaciones con javascript\r\n\tDesarrollo de reportes con iReport y java\r\nProyecto SEDESOL-Oportunidades:\r\n\tCreación de Jsp’s en para la aplicación Web “Generador de Encuestas”, para las encuestas realizadas por el gobierno federal en su programa oportunidades.\r\n\tDesarrollo de funciones y validaciones con javascript\r\n\tAnálisis del proyecto.\r\n\tPruebas de encuestas realizadas en los Dispositivos PDA’s (Asistente Digital Perso- nal).\r\n\tSoporte técnico vía telefónica a Jefes de Captura de otros Estados de la República.\r\n\tCapacitación a personal del programa SEDESOL – Oportunidades (Jefes, de Captura, Encuestadores y Desarrolladores de software).\r\n\tRealización de documentación y soluciones para la capacitación de personal de Mesa de Ayuda (help-desk).\r\n\r\n\tJava, html, javascript, CSS, NetBeans, Eclipse, GlassFish,, Tomcat 5.5, Liferay 5.0, SOAP (WSO2), iReport, General Interface.",
+                "salary_range": "5000 a 10000",
+                "start_at": "2010-01-04",
+                "end_at": "2011-05-31",
+                "current_job": 0
+            },
+            {
+                "job": "Reclutador Sr TI",
+                "place": "AIT Vanguardia Tecnológica",
+                "description": "",
+                "salary_range": "",
+                "start_at": "2018-09-01",
+                "end_at": "",
+                "current_job": 1
+            }
+        ],
+        "skills": [
+            {
+                "name": "HTML",
+                "level": "Profesional"
+            },
+            {
+                "name": "Javascript",
+                "level": "Profesional"
+            },
+            {
+                "name": "PHP",
+                "level": "Profesional"
+            },
+            {
+                "name": "PL-SQL",
+                "level": "Profesional"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Pasante",
+                "title": "TSU. Tecnologías de la Información y la Comunicación en el área de Sistemas Informáticos",
+                "place": "Universidad Tecnológica de Nezahualcóyotl"
+            },
+            {
+                "kind": "Online",
+                "title": "Lic. Psicología",
+                "place": "Universidad Latinoamericana"
+            }
+        ],
+        "updated_at": "2016-07-25 04:10:44"
+    },
+    {
+        "id": 68889,
+        "region_id": 9,
+        "region_name": "Ciudad de México",
+        "current_salary": "5,000 a 10,000",
+        "birthday": "1997-07-21",
+        "experiences": [],
+        "skills": [
+            {
+                "name": "Diseño Web",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "Python",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "PHP",
+                "level": "Aprendiz"
+            },
+            {
+                "name": "Gestión de Procesos de Negocio (BPM)",
+                "level": "Aprendiz"
+            }
+        ],
+        "languages": [
+            {
+                "name": "Inglés",
+                "level": "Nivel Básico"
+            }
+        ],
+        "educations": [
+            {
+                "kind": "Estudios Universitarios - Cursando",
+                "title": "Licenciatura en informatica adminstrativa",
+                "place": "Universidad Nacional Autónoma de México, UNAM-FCA"
+            }
+        ],
+        "updated_at": "2019-04-08 19:21:13"
+    }
+]
